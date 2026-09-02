@@ -1,5 +1,5 @@
 def is_palindrome(x: int) -> bool:
-    # 「-」がつく負の数、末尾が 0 は回分にならない
+    # 「-」がつく負の数、末尾が 0 は回文にならない
     if x < 0 or (x % 10 == 0 and x != 0):
         return False
 
