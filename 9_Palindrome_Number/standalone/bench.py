@@ -8,6 +8,9 @@ def benchmark_digits(
     label: str = "digits",
     repeat: int = 1,
 ) -> None:
+    print("| digit | x | 実行時間(ms) |")
+    print("| ----- | - | ------------ |")
+
     for x in values:
         start = time.perf_counter()
         for _ in range(repeat):
@@ -16,4 +19,4 @@ def benchmark_digits(
 
         digits = len(str(abs(x))) if x != 0 else 1
         per_run = elapsed / repeat
-        print(f"{label}={digits:2d} | x={x:>12} | 実行時間: {per_run:.7f} ms")
+        print(f"| {digits} | {x} | {per_run:.7f} ms |")

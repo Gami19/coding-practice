@@ -6,7 +6,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from bench import benchmark_digits
-from step1 import is_palindrome
+from step2 import is_palindrome
 
 # 桁数ごとのテスト値（回文 / 非回文）
 cases = [
