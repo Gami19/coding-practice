@@ -55,6 +55,7 @@ Leetcode で最も計算が早いコードでは、以下の**文字列への変
 ```python
 str(x) == str(x)[::-1]
 ```
+**Trade Off**
 Space complexityを使用することで, time complexity を O(1)
 
 ### 実行時間
