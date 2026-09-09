@@ -23,6 +23,11 @@
 各問題フォルダ内の `standalone/` は、**検証専用** の場所
 ルート直下の `step1.py` / `step2.py` などは練習・提出用のコードとして書き、`standalone/` ではそれを import して動作確認や計測を行う
 
+## dsa
+
+[新・明解Pythonで学ぶアルゴリズムとデータ構造 第２版](https://www.bohyoh.com/Books/NewMeikaiPythonAlgorithm_2nd/index.html) を読みながら、実際にコーディングするためのフォルダ。
+
+
 ### フォルダ構成（例）
 
 プロジェクト内の standalone 構成を確認し、README 用の文案を用意します。
